@@ -80,7 +80,7 @@ document.querySelectorAll('.resume-option').forEach(option => {
         else if (action === 'download') {
             const link = document.createElement('a');
             link.href = resumeUrl;
-            link.download = 'Alex_Carry_Resume.pdf';
+            link.download = 'Kirtiman_Dwivedi_Resume.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
