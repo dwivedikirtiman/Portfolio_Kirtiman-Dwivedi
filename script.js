@@ -74,7 +74,7 @@ document.querySelectorAll('.resume-option').forEach(option => {
     option.addEventListener('click', function(e) {
         e.preventDefault();
         const action = this.getAttribute('data-action');
-        const resumeUrl = 'resume.pdf'; // Replace with your resume path
+        const resumeUrl = './Assets/Projects/Resume_KirtimanDwivedi.pdf'; // Replace with your resume path
 
         if (action === 'view') window.open(resumeUrl, '_blank');
         else if (action === 'download') {
